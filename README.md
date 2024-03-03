@@ -1,1 +1,1 @@
-# Repositório da disciplina Algotritmo e Lógica de programação
+# Repositório da disciplina Algoritmo e Lógica de programação
