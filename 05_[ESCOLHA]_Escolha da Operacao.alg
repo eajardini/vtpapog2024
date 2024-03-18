@@ -1,13 +1,13 @@
-//   Construa um algoritmo que solicite qual operação
-//você deseja executar:
-//- A (para adição)
-//- S (para Subtração)
-//- M (para Multiplicação)
-//- D (para Divisão).
-//   Ao escolher a operação o sistema deve solicitar
-//dois números inteiro.
-//   Apos entrar com os números o sistema deve realizar
-//o cálculo desejado e armazenar em uma variável e
+//   Construa um algoritmo que solicite qual operaÃ§Ã£o
+//vocÃª deseja executar:
+//- A (para adiÃ§Ã£o)
+//- S (para SubtraÃ§Ã£o)
+//- M (para MultiplicaÃ§Ã£o)
+//- D (para DivisÃ£o).
+//   Ao escolher a operaÃ§Ã£o o sistema deve solicitar
+//dois nÃºmeros inteiro.
+//   Apos entrar com os nÃºmeros o sistema deve realizar
+//o cÃ¡lculo desejado e armazenar em uma variÃ¡vel e
 //imprimir a mesma na tela ao final do algoritmo.
 
 
@@ -41,17 +41,17 @@ operacao:literal
 
 inicio
 
-   escreval("Informe Qual Operação deseja realizar:")
-   escreval("A - Adição")
-   escreval("S - Subtração")
-   escreval("M - Multiplicação")
-   escreval("D - Divisão")
+   escreval("Informe Qual OperaÃ§Ã£o deseja realizar:")
+   escreval("A - AdiÃ§Ã£o")
+   escreval("S - SubtraÃ§Ã£o")
+   escreval("M - MultiplicaÃ§Ã£o")
+   escreval("D - DivisÃ£o")
    leia(operacao)
    
-   escreva("Informe o Primeiro número: ")
+   escreva("Informe o Primeiro nÃºmero: ")
    leia(numero1)
    
-   escreva("Informe o Segundo número: ")
+   escreva("Informe o Segundo nÃºmero: ")
    leia(numero2)
 
    escolha(operacao)
@@ -69,7 +69,7 @@ inicio
          fimse
 
       outrocaso
-         escreva("Operação inválida")
+         escreva("OperaÃ§Ã£o invÃ¡lida")
          resultado <- 0
    fimescolha
    
@@ -77,6 +77,6 @@ inicio
       resultado <- resultado * (-1)
    fimse
    
-   escreval("O resultado da operação é: ", resultado)
+   escreval("O resultado da operaÃ§Ã£o Ã©: ", resultado)
    
 fimalgoritmo
