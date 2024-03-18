@@ -1,7 +1,7 @@
-//Faça um algoritmo que receba duas notas e calcule a média.
-//Caso a média seja no mínimo 6 o mostrar a mensagem que o aluno está aprovado,
-//se a média for menor que 6 e igual ou superior a 4 o mesmo está de recuperação e
-//se a média for inferior a 4 o aluno está reprovado.
+//FaÃ§a um algoritmo que receba duas notas e calcule a mÃ©dia.
+//Caso a mÃ©dia seja no mÃ­nimo 6 o mostrar a mensagem que o aluno estÃ¡ aprovado,
+//se a mÃ©dia for menor que 6 e igual ou superior a 4 o mesmo estÃ¡ de recuperaÃ§Ã£o e
+//se a mÃ©dia for inferior a 4 o aluno estÃ¡ reprovado.
 //
 
 
@@ -45,7 +45,7 @@ inicio
       escreva("Aluno Aprovado")
    senao
       se((media >= 4) e (media < 6))entao
-          escreval("Aluno de Recuperação")
+          escreval("Aluno de RecuperaÃ§Ã£o")
       senao
          escreval("Aluno Reprovado")
       fimse
@@ -55,7 +55,7 @@ inicio
       escreval("Aprovado")
    fimse
    se((media >= 4) e (media < 6))entao
-      escreval("Recuperação")
+      escreval("RecuperaÃ§Ã£o")
    fimse
    se(media < 4)entao
       escreval("Reprovado")
