@@ -9,22 +9,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 algoritmo "Tabuada N"
 
 var
