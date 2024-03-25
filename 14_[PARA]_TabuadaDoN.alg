@@ -25,15 +25,17 @@
 
 
 
-algoritmo "Tabuada 2"
+algoritmo "Tabuada N"
 
 var
-   contador, conta:inteiro
+   contador, resultado:inteiro
+   tabuadaN :inteiro
 inicio
-
+   escreva ("Informe a tabuada:")
+   leia(tabuadaN)
    para contador <- 0 ate 10 faca
-      conta <- 2*contador
-      escreval("2", " X ", contador, " = ", conta)
+      resultado <- tabuadaN*contador
+      escreval(tabuadaN, " X ", contador, " = ", resultado)
    fimpara
 
 fimalgoritmo
