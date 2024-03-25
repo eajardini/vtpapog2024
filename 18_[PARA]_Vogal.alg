@@ -1,7 +1,7 @@
-// Construa um algoritmo que solicite 10 letras
+// Construa um algoritmo que solicite 10 letras ou nÃºmeros (se atente para o tipo de dados da variÃ¡vel)
 //  Ao final o algoritmo deve informar a quantidade de cada vogal
-//  digitada, o número total de consoantes que foram digitadas
-//  e quantos números de 0 até 9 foram digitados.
+//  digitada, o nÃºmero total de consoantes que foram digitadas
+//  e quantos nÃºmeros de 0 atÃ© 9 foram digitados.
 
 
 
@@ -76,7 +76,7 @@ inicio
    escreval ("Foram digitadas ", vogal_o, " Vogal O")
    escreval ("Foram digitadas ", vogal_u, " Vogal U")
    escreval ("Foram digitadas ", consoante, " Consoantes")
-   escreval ("Foram digitados ", numero, " números de 0 até 9")
+   escreval ("Foram digitados ", numero, " nÃºmeros de 0 atÃ© 9")
 
 fimalgoritmo
 
