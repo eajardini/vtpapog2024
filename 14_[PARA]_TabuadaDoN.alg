@@ -1,4 +1,4 @@
-//Faça um algoritmo para calcular e mostrar a tabuada do N onde N é um número informado pelo usuário.
+//FaÃ§a um algoritmo para calcular e mostrar a tabuada do N onde N Ã© um nÃºmero informado pelo usuÃ¡rio.
 
 
 
