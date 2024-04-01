@@ -1,7 +1,8 @@
-//Faça um algoritmo que receba N números e mostre positivo,
-//negativo ou zero para cada número.
-//Após informar o número e mostrar a reposta, deve ser perguntato se
-//deseja informar mais um número (S-Sim ou N-Não).
+//FaÃ§a um algoritmo que receba N nÃºmeros e mostre a mensagem "NÃºmero positivo",
+// para valores positivos; a mensagem "NÃºmero  negativo", para nÃºmeros negativos
+// ou a mensagem "NÃºmero zero" para cada nÃºmero zero digitadp.
+//ApÃ³s informar o nÃºmero e mostrar a reposta, deve ser perguntato se
+//deseja informar mais um nÃºmero (S-Sim ou N-NÃ£o).
 
 
 
@@ -35,7 +36,7 @@ inicio
 opc <- "S"
 enquanto opc = "S" faca
    limpatela
-   escreva("Digite um número: ")
+   escreva("Digite um nÃºmero: ")
    leia(numero)
    se numero > 0 entao
       escreval("Positivo")
@@ -43,10 +44,10 @@ enquanto opc = "S" faca
       se numero < 0 entao
          escreval("Negativo")
       senao
-         escreval("O número é igual a 0")
+         escreval("O nÃºmero Ã© igual a 0")
       fimse
    fimse
-   escreva("Deseja continuar? (S-Sim / N-Não) ")
+   escreva("Deseja continuar? (S-Sim / N-NÃ£o) ")
    leia(opc)
 
 fimenquanto
