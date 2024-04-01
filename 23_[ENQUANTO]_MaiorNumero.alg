@@ -1,6 +1,6 @@
-//faca um algoritmo que solicite N números inteiros.
-//Até que o número 0(zero) seja digitado.
-//Ao final o algoritmo deve informa o maior número digitado.
+//faca um algoritmo que solicite N nÃºmeros inteiros.
+//AtÃ© que o nÃºmero 0(zero) seja digitado.
+//Ao final o algoritmo deve informa o maior nÃºmero digitado.
 
 
 
@@ -33,7 +33,7 @@ inicio
 
    numero <- 1
    enquanto numero <> 0 faca
-      escreva("Informe o Número: ")
+      escreva("Informe o NÃºmero: ")
       leia(numero)
       
       se (numero > maior) entao
@@ -41,7 +41,7 @@ inicio
       fimse
    fimenquanto
    
-   escreval("O maior número digitado foi: ", maior)
+   escreval("O maior nÃºmero digitado foi: ", maior)
 fimalgoritmo
 
 
