@@ -1,6 +1,6 @@
-//FaÁa um programa que fique mostrando a mensagem "Comando enquanto".
-//A cada frase mostrada, dÍ a opÁ„o para que o usu·rio escolher se
-//continua ou n„o S-Continuar N-N„o continuar.
+//Fa√ßa um programa que fique mostrando a mensagem "Comando enquanto".
+//A cada frase mostrada, d√™ a op√ß√£o para que o usu√°rio escolher se
+//continua ou n√£o S-Continuar N-N√£o continuar.
 
 
 
@@ -35,7 +35,7 @@ inicio
    enquanto (continuar = "S") faca
       escreval("Comando Enquanto!!!")
 
-      escreval("Deseja continuar S-SIM N-N√O")
+      escreval("Deseja continuar S-SIM N-N√ÉO")
       leia(continuar)
    fimenquanto
    
@@ -43,7 +43,7 @@ inicio
    enquanto (continuar <> "N") faca
       escreval("Comando Enquanto!!!")
 
-      escreval("Deseja continuar S-SIM N-N√O")
+      escreval("Deseja continuar S-SIM N-N√ÉO")
       leia(continuar)
    fimenquanto
 
