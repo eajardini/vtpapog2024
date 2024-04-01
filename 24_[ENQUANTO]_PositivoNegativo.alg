@@ -1,6 +1,6 @@
 //Faça um algoritmo que receba N números e mostre a mensagem "Número positivo",
 // para valores positivos; a mensagem "Número  negativo", para números negativos
-// ou a mensagem "Número zero" para cada número zero digitadp.
+// ou a mensagem "Número zero" para cada número zero digitado.
 //Após informar o número e mostrar a reposta, deve ser perguntato se
 //deseja informar mais um número (S-Sim ou N-Não).
 
