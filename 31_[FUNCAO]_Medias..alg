@@ -1,9 +1,17 @@
-//FaÁa um algoritmo que receba trÍs notas de um aluno como par‚metros
-//e o tipo da mÈdia que dever· ser calculada.
-//Se o tipo da mÈdia for "A" a funÁ„o calcula a mÈdia aritmÈtica das
-//notas do aluno, se for "P" a funÁ„o calcula a mÈdia ponderada
-//pesos 5, 3 e 2. A mÈdia calculada deve ser devolvida ao programa
-//principal para, ent„o, ser mostrada.
+//Fa√ßa um algoritmo que receba tr√™s notas de um aluno como par√¢metros
+//e o tipo da m√©dia que dever√° ser calculada.
+//Se o tipo da m√©dia for "A" a fun√ß√£o calcula a m√©dia aritm√©tica das
+//notas do aluno, se for "P" a fun√ß√£o calcula a m√©dia ponderada
+//pesos 5, 3 e 2. A m√©dia calculada deve ser devolvida ao programa
+//principal para, ent√£o, ser mostrada.
+
+
+
+
+
+
+
+
 
 
 
@@ -57,13 +65,13 @@ inicio
    escreva("Informe a nota 3: ")
    leia(nota3)
    
-   escreval("Informe o tipo da mÈdia ")
-   escreva("A - AritmÈtica ")
+   escreval("Informe o tipo da m√©dia ")
+   escreva("A - Aritm√©tica ")
    escreva("P - Ponderada :")
    leia(tipo_media)
    
    media <- calcula_media(nota1, nota2, nota3, tipo_media)
 
-   escreval("A mÈdia do aluno È: ", media)
+   escreval("A m√©dia do aluno √©: ", media)
 
 fimalgoritmo
