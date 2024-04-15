@@ -1,7 +1,10 @@
-//Faça um algoritmo que receba 2 números inteiros e qual operação matemática deseja
-//realizar: (+) Adição, (-)Subtração, (*) Multiplicação e (/) Divisão.
-//Construir uma função que receba os dois números e a operação desejada.
+//FaÃ§a um algoritmo que receba 2 nÃºmeros inteiros e qual operaÃ§Ã£o matemÃ¡tica deseja
+//realizar: (+) AdiÃ§Ã£o, (-)SubtraÃ§Ã£o, (*) MultiplicaÃ§Ã£o e (/) DivisÃ£o.
+//Construir uma funÃ§Ã£o que receba os dois nÃºmeros e a operaÃ§Ã£o desejada.
 //Ao final mostrar o resultado.
+
+
+
 
 
 
@@ -62,17 +65,17 @@ inicio
        fimfuncao
    ////////////////////////////////////
 
-   escreval("Informe o primeiro número: ")
+   escreval("Informe o primeiro nÃºmero: ")
    leia(numero1)
-   escreval("Informe o segundo número: ")
+   escreval("Informe o segundo nÃºmero: ")
    leia(numero2)
-   escreval("Informe a operação desejada: ")
-   escreval("(+) Adição")
-   escreval("(-) Subtração")
-   escreval("(*) Multiplicação")
-   escreval("(/) Divisão")
+   escreval("Informe a operaÃ§Ã£o desejada: ")
+   escreval("(+) AdiÃ§Ã£o")
+   escreval("(-) SubtraÃ§Ã£o")
+   escreval("(*) MultiplicaÃ§Ã£o")
+   escreval("(/) DivisÃ£o")
    leia(operacao)
 
-   escreval("O resultado é: ", calcular(numero1, numero2, operacao))
+   escreval("O resultado Ã©: ", calcular(numero1, numero2, operacao))
 
 fimalgoritmo
