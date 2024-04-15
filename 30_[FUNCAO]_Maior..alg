@@ -1,8 +1,12 @@
-//Faça um algoritmo que receba 5 números e ao final mostre quem é o
-//maior e o menor número digitado.
-//A verificação do maior e menor deve ser feita em uma função.
-//O menor e o maior número devem ser retornados para o programa
-//principal para, então, serem mostrados.
+//FaÃ§a um algoritmo que receba 5 nÃºmeros e ao final mostre quem Ã© o
+//maior e o menor nÃºmero digitado.
+//A verificaÃ§Ã£o do maior e menor deve ser feita em uma funÃ§Ã£o.
+//O menor e o maior nÃºmero devem ser retornados para o programa
+//principal para, entÃ£o, serem mostrados.
+
+
+
+
 
 
 
@@ -69,12 +73,12 @@ inicio
    ////////////////////////////////////
 
    para cont <- 1 ate 5 faca
-      escreva("Informe o número: ")
+      escreva("Informe o nÃºmero: ")
       leia(numero)
       maior <- f_maior(numero, cont)
       menor <- f_menor(numero, cont)
    fimpara
-   escreval("O maior é: ", maior)
-   escreval("O menor é: ", menor)
+   escreval("O maior Ã©: ", maior)
+   escreval("O menor Ã©: ", menor)
 
 fimalgoritmo
