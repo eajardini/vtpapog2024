@@ -39,20 +39,22 @@
 
 algoritmo "funcao"
 var
-   res:inteiro
-inicio
+   num, res:inteiro
 
-    funcao mostra(numPar :inteiro): inteiro
-       var
-          result:inteiro
-       inicio
-          result <- numPar+2
-          retorne result
-       fimfuncao
-       
+funcao mostra(numPar :inteiro): inteiro
+var
+    result:inteiro
+inicio
+    result <- numPar+2
+    retorne result
+fimfuncao
+
+inicio         
    /////////////////////////////////////
+   escreva ("Informe um número:")
+   leia(num)
    escreval("Chamando a função mostra!!!")
-   res <- mostra()
+   res <- mostra(num)
    escreval("O valor retornado pela função é: ",res)
 fimalgoritmo
 
