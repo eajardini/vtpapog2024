@@ -1,6 +1,42 @@
 //Escreva um algoritmo que recebe um numero inteiro qualquer e retorne
 // o numero + 2
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 algoritmo "funcao"
 var
    res:inteiro
@@ -15,9 +51,9 @@ inicio
        fimfuncao
        
    /////////////////////////////////////
-   escreval("Chamando a função mostra!!!")
+   escreval("Chamando a funÃ§Ã£o mostra!!!")
    res <- mostra()
-   escreval("O valor retornado pela função é: ",res)
+   escreval("O valor retornado pela funÃ§Ã£o Ã©: ",res)
 fimalgoritmo
 
 
