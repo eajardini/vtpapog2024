@@ -43,28 +43,29 @@ algoritmo "funcao"
 var
    numero1, numero2: inteiro
    operacao:literal
+
+funcao calcular(n1, n2:inteiro; op:literal): real
+var
+  result:real
+
 inicio
+  escolha (op)
+      caso "+"
+          result <- n1 + n2
+      caso "-"
+          result <- n1 - n2
+      caso "*"
+          result <- n1 * n2
+      caso "/"
+          result <- n1 / n2
+      outrocaso
+          result <- -1
+   fimescolha
+   retorne result
+fimfuncao
+////////////////////////////////////
 
-    funcao calcular(n1, n2:inteiro; op:literal): real
-       var
-          result:real
-       inicio
-          escolha (op)
-             caso "+"
-                result <- n1 + n2
-             caso "-"
-                result <- n1 - n2
-             caso "*"
-                result <- n1 * n2
-             caso "/"
-                result <- n1 / n2
-             outrocaso
-                result <- -1
-          fimescolha
-          retorne result
-       fimfuncao
-   ////////////////////////////////////
-
+inicio    
    escreval("Informe o primeiro número: ")
    leia(numero1)
    escreval("Informe o segundo número: ")
