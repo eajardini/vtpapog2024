@@ -24,6 +24,20 @@ faça um algoritmo que solicite ao usuário números e os armazene em um vetor d
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def troca(vet):
     for i in range(30):
         if vet[i] >= 0:
