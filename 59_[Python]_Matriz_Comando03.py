@@ -26,6 +26,15 @@ inteira 5 x 5 e escreva os elementos da diagonal principal
 
 
 
+
+
+
+
+
+
+
+
+
 #variaveis
 mat =  [[0]*5, [0]*5, [0]*5, [0]*5, [0]*5] 
 
