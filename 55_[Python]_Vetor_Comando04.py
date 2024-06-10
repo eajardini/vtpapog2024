@@ -25,6 +25,19 @@ Imprima depois o vetor resultante
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 #variaveis
 vet1=[0.0]*50
 vet2=[0.0]*50
