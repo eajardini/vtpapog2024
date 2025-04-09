@@ -42,7 +42,7 @@ Assumindo que os alunos são cadastrados por computador, escreva um algoritmo qu
 
 
 
-
+```C
 algoritmo "Matrícula no curso"
 var
    contador, idade:inteiro
@@ -75,5 +75,5 @@ inicio
    escreval ("A quantidade de mulheres inscritas é: ",qtd_mulheres)
    escreval ("A quantidade de alunos maiores de idade é: ", qtd_maiores)
 fimalgoritmo
-
+```
 
